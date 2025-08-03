@@ -1,0 +1,29 @@
+{
+  "name": "url-encryption-demo",
+  "version": "1.0.0",
+  "description": "URL encryption and decryption system for secure web navigation",
+  "main": "server-url-decryption.js",
+  "scripts": {
+    "start": "node server-url-decryption.js",
+    "dev": "nodemon server-url-decryption.js",
+    "test": "node test-encryption.js"
+  },
+  "keywords": [
+    "url-encryption",
+    "security",
+    "middleware",
+    "express",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
